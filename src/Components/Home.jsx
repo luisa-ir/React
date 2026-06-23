@@ -9,7 +9,7 @@ const Home = () => {
     <div className='home'>
 
         <h1>Bienvenido </h1>
-        <button onClick={()=> navigate ('/Nav')}>Ir a Nav</button>
+        <button className="btn btn-primary" onClick={()=> navigate ('/Nav')}>Ir a Nav</button>
         
     </div>
   )

@@ -14,8 +14,8 @@ const Contact = () => {
         <br />
         <br />
 
-        <button onClick={()=> navigate('/Nav')}>Volver a Nav</button>
-        <button onClick={()=> navigate('/Home')}>Volver a Home</button>
+        <button className="btn btn-dark" onClick={()=> navigate('/Nav')}>Volver a Nav</button>
+        <button className="btn btn-dark" onClick={()=> navigate('/Home')}>Volver a Home</button>
 
     </div>
   )

@@ -14,8 +14,8 @@ const Nav = () => {
 
         <h2>Este es el componenete Nav</h2>
 
-      
-        <button onClick={irContact}>Ir a contacto</button>
+        
+      <button className="btn btn-primary" onClick={irContact}>Ir a contacto</button>
 
       
     </div>

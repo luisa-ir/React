@@ -182,3 +182,62 @@
     border-right-color: var(--border);
   }
 }
+
+/* Botones personalizados */
+.btn {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.08);
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #000000;
+  color: #ffffff;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+/* Variantes heredan el estilo oscuro por defecto */
+.btn-primary,
+.btn-secondary,
+.btn-dark {
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.btn:hover {
+  filter: brightness(1.06);
+}
+
+.nav .btn,
+.home .btn,
+.contact .btn {
+  margin-top: 12px;
+}
+
+/* Botones oscuros para Contact */
+.btn-dark {
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.btn-dark:hover {
+  filter: brightness(1.06);
+}
+
+.contact h2 {
+  color: #0f172a; /* texto oscuro para ser legible sobre fondo claro */
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 20px;
+}
