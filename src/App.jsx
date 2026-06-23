@@ -7,11 +7,11 @@ import Home from './Components/Home'
 const App = () => {
   return (
     <>
-  
+    
     <Routes>
-      <Route path='/' element={<Home />}/>
-      <Route path='/Nav' element={<Nav />}/>
+      <Route path='/' element={<Nav />}/>
       <Route path='/contact' element={<Contact />}/>
+      <Route path='/home' element={<Home />}/>
       
     </Routes>
       

@@ -4,6 +4,10 @@ import {useNavigate} from 'react-router-dom'
 const Nav = () => {
   const navigate = useNavigate();
 
+  const irHome = () =>{
+    navigate ('/home')
+  }
+
   const irContact = () =>{
     navigate ('/contact')
   }
@@ -14,8 +18,11 @@ const Nav = () => {
 
         <h2>Este es el componenete Nav</h2>
 
+        <button className="btn btn-dark" onClick={irHome}>Ir a Home</button> 
+        <button className="btn btn-dark" onClick={irContact}>Ir a Contacto</button> 
+
         
-      <button className="btn btn-primary" onClick={irContact}>Ir a contacto</button>
+      
 
       
     </div>

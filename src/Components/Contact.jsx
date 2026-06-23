@@ -5,6 +5,11 @@ import {useNavigate} from 'react-router-dom'
 const Contact = () => {
   const navigate = useNavigate();
 
+  const volver = () => {
+    navigate ('/')
+  }
+
+
   return (
     <div className='contact'>
 
@@ -13,9 +18,9 @@ const Contact = () => {
         <img src={imagenContacto} alt='imagenContacto' width="300"/>
         <br />
         <br />
-
-        <button className="btn btn-dark" onClick={()=> navigate('/Nav')}>Volver a Nav</button>
-        <button className="btn btn-dark" onClick={()=> navigate('/Home')}>Volver a Home</button>
+        <button className="btn btn-dark" onClick={volver}>volver a nav</button>
+      
+        
 
     </div>
   )
